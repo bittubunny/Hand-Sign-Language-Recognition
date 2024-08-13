@@ -2,12 +2,18 @@
 # Hand Sign Recognition Using Mediapipe and TensorFlow
 
 # 1. Libraries Used
-OpenCV (cv2): Used for video capture, image processing, and displaying results.
-MediaPipe (mediapipe): Provides robust hand tracking and landmark detection.
-NumPy (numpy): Used for numerical operations, especially with arrays.
-Pandas (pandas): Used for data manipulation and storage (CSV).
-TensorFlow/Keras (tensorflow, keras): Used to build, train, and evaluate the machine learning model.
-Scikit-learn (sklearn): Provides utilities for data preprocessing, such as label encoding and data splitting.
+OpenCV (cv2): 
+Used for video capture, image processing, and displaying results.
+MediaPipe (mediapipe): 
+Provides robust hand tracking and landmark detection.
+NumPy (numpy): 
+Used for numerical operations, especially with arrays.
+Pandas (pandas): 
+Used for data manipulation and storage (CSV).
+TensorFlow/Keras (tensorflow, keras): 
+Used to build, train, and evaluate the machine learning model.
+Scikit-learn (sklearn): 
+Provides utilities for data preprocessing, such as label encoding and data splitting.
 # 2. Algorithms Used
 Hand Landmark Detection: MediaPipe's hand solution is employed, which uses deep learning models for real-time hand tracking and landmark detection.
 Neural Network: A sequential model built with Keras containing fully connected dense layers. It utilizes the Rectified Linear Unit (ReLU) activation function for hidden layers and a softmax activation function for the output layer, suited for multi-class classification tasks.
