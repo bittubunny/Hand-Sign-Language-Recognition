@@ -1,4 +1,4 @@
-# Hand-Sign-Language-Recognition
+# Hand-Sign-Recognition
 # Hand Sign Recognition Using Mediapipe and TensorFlow
 
 # 1. Libraries Used
